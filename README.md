@@ -1,3 +1,4 @@
 # SurfacePro3-Windows7
-My personal attempt at porting the Surface Pro 3's Drivers to Windows 7 
-I'll attempt to try a commit everyday, a possible update here / into a log file
+An attempt at porting Windows 7 to a Surface Pro 3
+### How was this possible?
+Thanks to the lessmsi package, decompiling the driver pack was easy, but porting it to Windows 7? That's the hard part as the driver pack only officially supports Windows 10 Pro, which is an issue as Windows 7 doesn't share the same kernel as Windows 10.  
